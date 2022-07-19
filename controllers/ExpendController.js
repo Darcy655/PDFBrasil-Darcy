@@ -9,7 +9,6 @@ const register = async (req, res) => {
 
   // Create expend
   const expend = await new Expend({
-    value,
     description,
     value,
     date,
